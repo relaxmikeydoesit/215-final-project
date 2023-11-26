@@ -1,0 +1,86 @@
+nav {
+  width: 980px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav #nav-holder {
+  position: fixed;
+  z-index: 3;
+  height: 80px;
+  width: 980px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 10px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: solid 2px #000;
+}
+nav #nav-holder .logo {
+  width: 42px;
+  height: 42px;
+}
+nav #nav-holder .nav-links {
+  height: auto;
+  width: 359px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  right: 0;
+  margin-left: 590px;
+  margin-right: auto;
+}
+nav #nav-holder .nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "gill-sans-nova";
+  font-size: 15px;
+}
+nav #nav-holder .nav-links .otherLinks {
+  height: auto;
+  width: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 390px;
+  margin-right: 60px;
+  right: 0;
+}
+nav #nav-holder .nav-links .otherLinks a {
+  color: #000000 !important;
+  text-decoration: none;
+  font-family: "gill-sans-nova";
+  font-size: 15px;
+  height: auto;
+  margin-right: 60px;
+}
+nav #nav-holder .nav-links .navLines {
+  font-weight: 300;
+  margin-top: 5px;
+  padding-left: 11px;
+  -webkit-transform: translate(30deg, 0deg);
+          transform: translate(30deg, 0deg);
+  width: 225px;
+}
