@@ -1,0 +1,97 @@
+.placeholder-blog {
+    width: 100%;
+    height: 148px;
+    background-color: #fff;
+}
+
+.blog-hero {
+    width: 981px;
+    height: 300px;
+    background-image: url(../images/blog.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+   display: flex;
+   align-items: center;
+   flex-flow: column;
+   justify-content: space-around;
+
+    .blog-hero-overlay {
+        width: inherit;
+        height: inherit;
+        background-color: rgba($color: #EE4367, $alpha: 0.6);
+    
+        .date-box {
+            width: 118px;
+            height: 118px;
+            background-color: #EE4367;
+            margin: 0 auto;
+            margin-top: 70px;
+            display: flex;
+            align-items: center;
+            // justify-content: center;
+            flex-direction: column;
+            .bold-date-dd {
+                margin-top: 10px;
+                font-family: "gill-sans-nova";
+                font-size: 42px;
+                font-weight: 600;
+                color: #fff;
+                text-align: center;
+                margin-bottom: -10px;
+            }
+                .bold-date-month {
+                    font-family: "gill-sans-nova";
+                    font-size: 24px;
+                    font-weight: 200;
+                    color: #fff;
+                    text-align: center;
+
+                }
+            
+            }
+        }
+    
+    .blog-hero-date {
+        
+        height: 59px;
+        background-color: #EE4367;
+        
+    .blog-hero-month {
+        width: 118px;
+        height: 59px;
+        background-color: #EE4367;
+        font-family: "gill-sans-nova";
+        color: #fff;
+        font-size: 31px;
+        font-weight: 200;
+        }
+    }
+}
+
+
+
+.blog-post-content {
+    width: 750px;
+    height: 550px;
+    // background-color: burlywood;
+    margin: 0 auto;
+
+    #header1, #header2 {
+        font-family: "gill-sans-nova";
+        font-size: 20px;
+        color: #EE4367;
+        font-weight: 400;
+        margin-top: 41px;
+        margin-bottom: 23px;
+    }
+        p {
+            font-family: "gill-sans-nova", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            font-weight: 200;
+            color: #000;
+
+        }
+}
+

@@ -1,0 +1,105 @@
+  #sectionfooter {
+        min-height: 415px;
+        background-color: hsl(347, 83%, 60%);
+        padding-top: 37px;
+        // margin-top: 20px;
+        width: 1280px;
+        height: 360px;
+        background-color: #ee4367;
+        display: flex;
+        // align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+      
+       .logo {
+        width: 92px;
+        height: 38px;
+        background-image: url(../images/logo-white.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        margin-bottom: 330px;
+        // margin-top: -320px;
+       }
+      
+    
+
+    // .logo {
+    //     width: 92px;
+    //     height: 42px;
+    //     margin: 0 auto;
+    //     background-image: url(../images/logo-white.png);
+    //     background-position: center;
+    //     background-size: cover;
+    //     background-repeat: no-repeat;
+    //     // align-self: center;
+    // }
+
+    .street-addy {
+        p {
+            text-align: center;
+            color: #ffffff;
+            font-family: "gill-sans-nova";
+            font-size: 14px;
+            font-weight: 200;
+        }
+    }
+
+    .sub-field {
+        width: 654px;
+        height: 60px;
+        background-color: rgba($color: #ffffff, $alpha: 0.25);
+        // margin-left: -150px;
+        display: flex;
+        margin-left: -200px;
+        
+        justify-content: space-between;            
+        p {
+            font-size: 16px;
+            font-family: "gill-sans-nova";
+            color: rgba($color: #fff, $alpha: 0.5);
+            padding: 16px;
+        }  
+    
+        .subscribe-button {
+            width: 125px;
+            height: 60px;
+            background-color: #ffffff;
+            color: #ee4367;
+            padding-top: 14px;
+            padding-left: 20px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        }
+    }
+        .social-links {
+            width: 140px;
+            height: 28px;
+            display: flex;
+            justify-content: space-between;
+            img {
+                width: 25px;
+                height: 25px;
+            }
+        }
+        .copyright {
+            font-family: "gill-sans-nova";
+            font-size: 12px;
+            font-weight: 200;
+            color: rgba($color: #fff, $alpha: 0.5);
+            // margin-bottom: -20px;
+
+        }
+    }
+    
+
+    #subbtn {
+        width: 125px;
+        height: 60px;
+        background-color: #ffffff;
+        color: #ee4367;
+        padding: 20px;
+    }
